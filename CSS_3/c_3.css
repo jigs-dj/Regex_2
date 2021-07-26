@@ -1,0 +1,63 @@
+.column
+{
+	float: left;
+}
+.left
+{
+	width: 44%;
+}
+.middle , .right
+{
+	width: 28%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.align
+{
+	display: flex;
+	align-items: center;
+}
+.span
+{
+	padding: 10px;
+}
+.connect
+{
+	font-weight: 250;
+	font-size: 22px;
+}
+.img
+{
+	width: 25%;
+	height: 35%;
+}
+.td
+{
+	font-weight: 535;
+}
+.last
+{
+	font-size: 25px;
+}
+.image
+{
+	width: 45%;
+	height: 40%;
+}
+.vl{
+  border-left: 1px solid grey;
+  height: 150px;
+  position: absolute;
+  margin-left: -3px;
+  top: 13%;
+}
+.o
+{
+	left: 44%;
+}
+.t{
+	left: 72%;
+}

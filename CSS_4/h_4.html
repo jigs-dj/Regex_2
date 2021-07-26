@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Assignment 4</title>
+	<link rel="stylesheet" type="text/css" href="c_4.css">
+</head>
+<body>
+	<h1>Zoo Keeper Application Form</h1>
+	<p>
+		<em>Please complete the form. Mandatory fields are marked with a 
+			<span style="color: red">*</span>
+		</em>
+	</p>
+	<form id="form">
+		<fieldset>
+			<legend>
+				<strong>CONTACT DETAILS</strong>
+			</legend>
+			<label for="name">Name
+				<span style="color: red">*</span>
+			</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" id="name" name="name" required>
+			<br><br>
+			<label for="number">Telephone</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="tel" id="number" name="number">
+			<br><br>
+			<label for="email">Email
+				<span style="color: red">*</span>
+			</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="email" id="email" name="email" required>
+		</fieldset>	
+	</form>
+	<br>
+	<form id="form">
+		<fieldset>
+			<legend>
+				<strong>PERSONAL INFORMATION</strong>
+			</legend>
+			<label for="age">
+				<span style="color: red">*</span>
+				Age
+			</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" id="age" name="age" required>
+			<br><br>
+			<label for="gender">Gender</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select size="1" id="drop">
+				<option value="Female" selected="Female">Female</option>
+				<option value="Male">Male</option>
+				<option value="Others">Others</option>
+			</select>
+			<br><br>
+			<div class="row">
+				<div class="c">
+					<label for="text" id="text">When did you<br>first know you<br>wanted to be a<br>zookeeper?</label>
+				</div>
+				<div class="c">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<textarea name="text" rows="7" cols="15" id="msg" >
+					</textarea>
+				</div> 
+		</fieldset>
+	</form>
+	<br>
+	<form id="form">
+		<fieldset>
+			<legend>
+				<strong>PICK YOUR FAVOURITE ANIMALS</strong>
+			</legend>
+			<div class="row">
+				<div class="c left">
+					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  					<label for="vehicle1"> Zebra</label><br>
+  					<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  					<label for="vehicle2"> Elephant</label><br>
+				</div>
+				<div class="c mido">
+					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  					<label for="vehicle1"> Cat</label><br>
+  					<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  					<label for="vehicle2"> Wildbeest</label><br>
+				</div>
+				<div class="c midt">
+					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  					<label for="vehicle1"> Anaconda</label><br>
+  					<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  					<label for="vehicle2"> Pigeon</label><br>
+				</div>
+				<div class="c right">
+					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  					<label for="vehicle1"> Human</label><br>
+  					<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  					<label for="vehicle2"> Crab</label><br>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<button class="button">Submit Application</button>
+	</form>
+</body>
+</html>

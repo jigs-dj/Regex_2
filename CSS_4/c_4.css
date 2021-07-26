@@ -1,0 +1,37 @@
+#form
+{
+	width:500px;
+}
+#drop
+{
+	width: 169px;
+}
+.c
+{
+	float: left;
+}
+.left, .mido, .midt, .right
+{
+	width: 117px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button
+{
+	background-color: lightgray;
+	border-color: skyblue;
+	color: black;
+	text-align: center;
+	margin: 4px 2px;
+	border-radius: 6px;
+	padding: 7px 15px;
+	height: 40px;
+	width: 160px;
+}
+textarea
+{
+	vertical-align: top;
+}

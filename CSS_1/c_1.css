@@ -1,0 +1,23 @@
+*
+{
+	background-image: url("backgrounds.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+h1
+{
+	font-family: Algerian;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	color: #99722b;
+}
+p
+{
+	font-weight: 550;
+	font-family: Algerian;
+	color: #99722b;
+	text-align: center;
+	text-transform: uppercase;
+}
